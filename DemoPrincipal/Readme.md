@@ -15,16 +15,15 @@ Descargar los archivos LayeredRangeTree.py y main.py en un directorio local de t
 - Para realizar consultas de click sobre 2 puntos aleatorios de la pantalla, recuerde que el origen de coordenadas es la esquina inferior izquierda, para que sus puntos sean un rango correcto el segundo punto debe ser mayor en ambas coordenadas al primer punto clickeado, luego de click sobre el botón Buscar (En los otros TextBox podemos ver los puntos seleccionados)
 
 Construido con:
-Kivy - Framework de interfaz Gráfica usado
-Python - Lenguaje de programación utilizado
+- Kivy - Framework de interfaz Gráfica usado
+- Python - Lenguaje de programación utilizado
 
 Autores
-Briggi Rivera Guillén
-Juan Marquinho Vilca Castro
-Josué Mateo Vilca Rivera (Jefe de Proyecto)
+- Briggi Rivera Guillén
+- Juan Marquinho Vilca Castro
+- Josué Mateo Vilca Rivera (Jefe de Proyecto)
 
-Licencia
-No hay licencia, si les sirve usenlo.
+Licencia: No hay licencia, si les sirve usenlo.
 
-Agradecimientos
-a Lizeth y Luciano nuestros profesores que nos pondrán 20 por el esfuerzo hecho!!!
+Agradecimientos a Lizeth y Luciano nuestros profesores que nos pondrán 20 por el esfuerzo hecho!!!
+ 

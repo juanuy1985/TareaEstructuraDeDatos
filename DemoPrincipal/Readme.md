@@ -9,34 +9,22 @@ Prerequisitos
 - Kivy ultima versión, ir a la página de Kivy https://kivy.org/#download y descargar la última versión disponible, (El presente proyecto solo se ha probado en Windows), la siguiente página indica como hacer una instalación de Kivy en este sistema operativo: https://kivy.org/docs/installation/installation-windows.html
 
 Corriendo el demo
-Descargar los archivos LayeredRangeTree.py y main.py en un directorio local de tu máquina, ejecutar el archivo main.py
+Descargar los archivos LayeredRangeTree.py y main.py en un directorio local de tu máquina, ejecutar el archivo main.py y se abrirá la ventana principal del demo.
 
-Give an example
-And coding style tests
-Explain what these tests test and why
+- Para llenar de puntos aleatorios ingresar un valor en el primer TextBox de la ventana (a la derecha del botón Graficar Aleatorio), y presionar el botón Graficar Aleatorio, por temas de performance, Kivy no soporta la generación de muchos puntos, es por eso que como máximo se soportan 275000, esperar a que se grafiquen los puntos ( En este paso se está construyendo el Layered Range Tree con los puntos generados).
+- Para realizar consultas de click sobre 2 puntos aleatorios de la pantalla, recuerde que el origen de coordenadas es la esquina inferior izquierda, para que sus puntos sean un rango correcto el segundo punto debe ser mayor en ambas coordenadas al primer punto clickeado, luego de click sobre el botón Buscar (En los otros TextBox podemos ver los puntos seleccionados)
 
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
+Construido con:
+Kivy - Framework de interfaz Gráfica usado
+Python - Lenguaje de programación utilizado
 
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Autores
+Briggi Rivera Guillén
+Juan Marquinho Vilca Castro
+Josué Mateo Vilca Rivera (Jefe de Proyecto)
 
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+Licencia
+No hay licencia, si les sirve usenlo.
 
-Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Acknowledgments
-Hat tip to anyone who's code was used
-Inspiration
-etc
+Agradecimientos
+a Lizeth y Luciano nuestros profesores que nos pondrán 20 por el esfuerzo hecho!!!

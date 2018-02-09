@@ -394,31 +394,3 @@ class LayeredRangeTree:
     def getHeight(self):
         return self.__getHeight__(self.root)
 
-cases = [ 100, 1000, 2000, 4000, 5000, 8000, 10000, 20000, 30000, 40000, 50000, 80000, 100000, 150000, 200000, 250000, 275000, 300000 ]
-
-ranges =    [
-                [10,10],[20,20],
-                [10,10],[50,50],
-                [10,10],[100,100],
-                [10,10],[1000,1000],
-                [10,10],[2000,2000],
-                [10,10],[10000,10000],
-                [10,10],[100000,100000],
-                [10,10],[150000,150000],
-                [10,10],[200000,200000],
-                [10,10],[1000000,1000000]
-            ]
-
-for n in cases:
-    points = []
-    for i in range(n):
-        points.append( [random.random()*1000000,random.random()*1000000] )
-    tree = LayeredRangeTree(points)
-
-    index = 0
-    while index < len(ranges):
-        start = timer()
-        points = tree.totalSearch( ranges[index], ranges[index+1] )
-        end = timer()
-        print("{0}\t{1}\t{2}\t{3}".format(n, [ranges[index], ranges[index+1]] , end - start, len(points)))
-        index += 2
